@@ -6,6 +6,7 @@ namespace ConstructorSampe
 {
     class Box
     {
+        
         private float width;
         private float height;
         private float depth;
@@ -30,4 +31,5 @@ namespace ConstructorSampe
             return (width * height + height * depth + depth * width) * 2;
         }
     }
+
 }
